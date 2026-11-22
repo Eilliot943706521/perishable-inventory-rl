@@ -1,0 +1,30 @@
+{
+  "state": "passed",
+  "models": 15,
+  "training_steps_total": 1095000,
+  "training_steps_per_seed": 73000,
+  "seeds": [
+    142,
+    143,
+    144,
+    145,
+    146
+  ],
+  "evaluation_annual_episodes": 6000,
+  "days_per_episode": 365,
+  "training_reward_scale": 0.01,
+  "ent_coef": 0.01,
+  "all_other_PPO_parameters_original": true,
+  "all_scenarios_four_observations": true,
+  "original_files_unchanged": 31,
+  "config_snapshots_match": true,
+  "profit_units": "original unscaled cash",
+  "wall_seconds": 693.2910170000005,
+  "runtime": {
+    "python": "3.11.4",
+    "numpy": "1.24.3",
+    "torch": "2.2.0+cpu",
+    "stable_baselines3": "2.4.1"
+  },
+  "validation": "All individual profit arrays reconcile to summaries and seasonal ledgers; all model checkpoints exist."
+}

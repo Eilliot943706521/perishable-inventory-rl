@@ -1,0 +1,16 @@
+# Separate experimental config; original ppo_config.yaml remains unchanged.
+learning_rate: 0.00025
+batch_size: 73
+n_epochs: 10
+gamma: 0.99
+gae_lambda: 0.95
+clip_range: 0.2
+vf_coef: 0.5
+ent_coef: 0.01
+policy: MlpPolicy
+net_arch:
+- 64
+- 64
+n_steps: 365
+total_timesteps: 73000
+training_reward_scale: 0.01

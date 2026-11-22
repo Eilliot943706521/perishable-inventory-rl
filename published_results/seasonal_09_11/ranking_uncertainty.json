@@ -1,0 +1,74 @@
+{
+  "deterministic": {
+    "empty": {
+      "first": "demand_only",
+      "second": "demand_and_price",
+      "mean_difference": 24.45019387136899,
+      "paired_seed_changes": [
+        46.65359085634964,
+        -31.88509258047634,
+        -1.092041764845817,
+        21.09390023741412,
+        87.48061260840336
+      ],
+      "approx_95pct_t_interval": [
+        -32.12105736103136,
+        81.02144510376934
+      ],
+      "interval_includes_zero": true
+    },
+    "nonempty": {
+      "first": "demand_only",
+      "second": "demand_and_price",
+      "mean_difference": 21.651041113004066,
+      "paired_seed_changes": [
+        45.526496316660996,
+        -32.015086166318724,
+        -4.008376499132737,
+        16.307912225350265,
+        82.44425968846053
+      ],
+      "approx_95pct_t_interval": [
+        -33.29473295747344,
+        76.59681518348157
+      ],
+      "interval_includes_zero": true
+    }
+  },
+  "stochastic": {
+    "empty": {
+      "first": "demand_only",
+      "second": "demand_and_price",
+      "mean_difference": 13.068573393584302,
+      "paired_seed_changes": [
+        90.32114576780282,
+        -15.388544610997997,
+        8.449457126830566,
+        4.260957816110022,
+        -22.3001491318239
+      ],
+      "approx_95pct_t_interval": [
+        -42.901503701723215,
+        69.03865048889182
+      ],
+      "interval_includes_zero": true
+    },
+    "nonempty": {
+      "first": "demand_only",
+      "second": "demand_and_price",
+      "mean_difference": 11.21724290160687,
+      "paired_seed_changes": [
+        91.13737052932129,
+        -20.056406010512546,
+        8.056438415076173,
+        2.6925036643706335,
+        -25.743692090221202
+      ],
+      "approx_95pct_t_interval": [
+        -47.06840307887791,
+        69.50288888209165
+      ],
+      "interval_includes_zero": true
+    }
+  }
+}

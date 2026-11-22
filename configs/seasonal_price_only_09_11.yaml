@@ -1,0 +1,4 @@
+# Price seasonality only, +/-10%; original PPO configuration is unchanged.
+season_lengths: [91, 91, 91, 92]
+demand_multipliers: [1.0, 1.0, 1.0, 1.0]
+price_multipliers: [0.9, 1.0, 1.1, 1.0]

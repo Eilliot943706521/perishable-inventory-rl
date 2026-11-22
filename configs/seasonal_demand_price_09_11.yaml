@@ -1,0 +1,4 @@
+# Demand and price change together by +/-10%; original PPO parameters.
+season_lengths: [91, 91, 91, 92]
+demand_multipliers: [0.9, 1.0, 1.1, 1.0]
+price_multipliers: [0.9, 1.0, 1.1, 1.0]
